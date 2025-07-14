@@ -22,6 +22,13 @@ public class Main {
             System.out.print(floatsArray[i] + ", ");
         }
         System.out.println(floatsArray[floatsArray.length - 1]);
+
+        for(int i = 0; i < animals.length - 1; i++)
+        {
+            System.out.print(animals[i] + ", ");
+        }
+        System.out.println(animals[animals.length - 1]);
+
         System.out.println("");
 
 
@@ -37,6 +44,13 @@ public class Main {
             System.out.print(floatsArray[i] + ", ");
         }
         System.out.println(floatsArray[0]);
+
+        for(int i = animals.length - 1; i > 0; i--)
+        {
+            System.out.print(animals[i] + ", ");
+        }
+        System.out.println(animals[0]);
+
         System.out.println("");
 
 
